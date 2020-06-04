@@ -28,11 +28,11 @@ public class RunnerFuncionalTest {
 @BeforeClass
 //@Ignore
 public static void reset() {
-	System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver4.exe");
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://srbarriga.herokuapp.com/");
-	driver.findElement(By.id("email")).sendKeys("amanda.amy12@gmail.com");
-	driver.findElement(By.id("senha")).sendKeys("coragem12");
+	driver.findElement(By.id("email")).sendKeys("amanda.amy12@hotmail.com");
+	driver.findElement(By.id("senha")).sendKeys("teste12");
 	driver.findElement(By.tagName("button")).click();
 	driver.findElement(By.linkText("reset")).click();
 	driver.quit();

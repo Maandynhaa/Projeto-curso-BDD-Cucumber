@@ -42,7 +42,7 @@ public class InserirContasSteps {
 	@Então("^recebo a mensagem \"([^\"]*)\"$")
 	public void receboAMensagem(String msg) throws Throwable {
 //		String texto = driver.findElement(By.xpath("//div[@class='alert alert-danger']")).getText();
-		String texto = driver.findElement(By.xpath("//div[starts-with(@class,'alert alert-')]")).getText();
+		String texto = driver.findElement(By.id("my-account")).getText();
 		assertEquals(msg, texto);
 	}
 
