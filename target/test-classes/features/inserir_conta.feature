@@ -8,8 +8,8 @@ Para que eu possa distribuir meu dinheiro de uma forma mais organizada
 
 Contexto:
 Dado que desejo adicionar a conta
-#Quando informo o usuário "amanda.amy12@gmail.com"
-#E a senha "coragem12"
+#Quando informo o usuário "amanda.amy12@hotmail.com"
+#E a senha "teste12"
 #E seleciono entrar
 #Então visualizo a página inicial
 #Quando seleciono Contas

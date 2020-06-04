@@ -26,8 +26,8 @@ public class InserirContasSteps {
 		System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://srbarriga.herokuapp.com/");
-		driver.findElement(By.id("email")).sendKeys("amanda.amy12@gmail.com");
-		driver.findElement(By.id("senha")).sendKeys("coragem12");
+		driver.findElement(By.id("email")).sendKeys("amanda.amy12@hotmail.com");
+		driver.findElement(By.id("senha")).sendKeys("teste12");
 		driver.findElement(By.tagName("button")).click();
 		driver.findElement(By.linkText("Contas")).click();
 		driver.findElement(By.linkText("Adicionar")).click();
